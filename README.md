@@ -47,7 +47,7 @@ The cropping process had to be pixel-perfect to guarantee that the resulting pic
 Rain effects were simulated by adding gaussian monochromatic noise to clear weather pictures and applying blending techniques. For the purposes of our experiment, we use a consistent amount of noise at $`35\%`$ and do not consider other variables like the fall angle or the size of raindrops. 
 
 #### 2.1.4 Compression
-The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from $`95`$ (best possible quality) to $`1`$ (worst possible quality), the following function was used to translate compression percentages into quality values: 
+The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from $`95`$ (best possible quality) to $`1`$ (worst possible quality), the following function was used to translate compression percentages into their corresponding quality values: 
 ```math 
 f: \mathbb{N} \to \mathbb{N}, f(x) = \lceil\mid95 -(\frac{x}{100} \cdot 95)\mid\rceil
 ```
