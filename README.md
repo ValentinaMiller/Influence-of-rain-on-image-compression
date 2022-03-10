@@ -7,7 +7,7 @@ Our project aims to examine the effect induced by rain on the perceived quality 
 In each trial of the MLDS experiment, the observer is presented with three compressed versions of a picture depicting a single state (rainy or clear weather). Six compression levels are used: $`50\%, 58\%, 66\%, 74\%, 82\%,`$ and $`90\%`$. For each of our $`4`$ pictures, an observer has to complete $`3`$ runs, in each of which they are presented with $`60`$ comparisons, totalling $`720`$ trials per observer. Overall, $`9`$ observers have taken the experiment. 
 
 ### 2.1 Stimuli 
-The stimuli consist primarily of four different pairs of pictures with each pair comprising a clear and a rainy weather photograph. We also added a third layer to our experiment by artificially simulating raindrops and consequently enabling a perfect comparison to the original clear weather picture. 
+The stimuli consist primarily of four different pairs of pictures with each pair comprising a clear and a rainy weather photograph. We also added an extra layer to our experiment by artificially simulating raindrops and consequently enabling a perfect comparison to the original clear weather picture. 
 
 <div align="center">
 ![stimuli](https://i.imgur.com/2pMtrij.png)
@@ -37,17 +37,17 @@ Each pair of stimuli pictures (rain/no rain) had to be manually cropped for two 
  1. Reducing differences: Raindrops should ideally be the only factor differentiating the pair. Any other visible dissimilarities or moving objects had to be cut out.
  2. Setting a practical uniform size of $`350`$x$`350`$ pixels which allows the MLDS experiment to be executed on smaller monitors. 
 
-The cropping process had to be pixel-perfect to guarantee that the resulting pictures in each pair reflected the same scenery. To achieve this, every two pictures were layered on top of one another and cropped simultaneously. 
+The cropping process had to be pixel-perfect to guarantee that the resulting pictures in each pair reflected the same scenery. To achieve this, every two pictures comprising a pair were layered on top of one another and cropped together simultaneously. 
 
 <div align="center">
 ![image 1 cropping](https://i.imgur.com/ZpN7cND.png)![image 2 cropping](https://i.imgur.com/IJWOmfK.png)![image 3 cropping](https://i.imgur.com/aOOq57j.png)![image 4 cropping](https://i.imgur.com/BeozHT1.png)
 </div>
 
 #### 2.1.3 Artificial rain
-Rain effects were simulated by adding gaussian monochromatic noise and applying blending techniques. For the purposes of our experiment, we use a consistent amount of noise at $`35\%`$ and do not consider other variables like the fall angle or the size of raindrops. 
+Rain effects were simulated by adding gaussian monochromatic noise to clear weather pictures and applying blending techniques. For the purposes of our experiment, we use a consistent amount of noise at $`35\%`$ and do not consider other variables like the fall angle or the size of raindrops. 
 
 #### 2.1.4 Compression
-The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from $`95`$ (best possible quality) to $`1`$ (worst possible quality), the following function was used to translate quality values into compression percentages: 
+The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from $`95`$ (best possible quality) to $`1`$ (worst possible quality), the following function was used to translate compression percentages into quality values: 
 ```math 
 f: \mathbb{N} \to \mathbb{N}, f(x) = \lceil\mid95 -(\frac{x}{100} \cdot 95)\mid\rceil
 ```
