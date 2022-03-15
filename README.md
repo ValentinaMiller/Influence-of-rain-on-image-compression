@@ -4,7 +4,7 @@
 Our project aims to examine the effect induced by rain on the perceived quality of images when compressed. In order to study such an effect, we make use of comparable images that illustrate sceneries reflecting *clear* and *rainy* states. We hypothesize that rain causes a difference in the perceived quality of a compressed image and conduct an MLDS experiment with the method of triads to test our hypothesis. 
 
 ## 2. Experimental design
-In each trial of the MLDS experiment, the observer is presented with three compressed versions of a picture depicting a single state (rainy or clear weather). Six compression levels are used: $`50\%, 58\%, 66\%, 74\%, 82\%,`$ and $`90\%`$. For each of our $`4`$ pictures, an observer has to complete $`3`$ runs, in each of which they are presented with $`60`$ comparisons, totalling $`720`$ trials per observer. Overall, $`9`$ observers have taken the experiment. 
+In each trial of the MLDS experiment, the observer is presented with three compressed versions of a picture depicting a single state (rainy or clear weather). Six compression levels are used: $`50\%, 58\%, 66\%, 74\%, 82\%`$ and $`90\%`$. For each of our $`4`$ pictures, an observer has to complete $`3`$ runs, in each of which they are presented with $`60`$ comparisons, totalling $`720`$ trials per observer. Overall, $`9`$ observers have taken the experiment. 
 
 ### 2.1 Stimuli 
 The stimuli consist primarily of four different pairs of pictures with each pair comprising a clear and a rainy weather photograph. We also added an extra layer to our experiment by artificially simulating raindrops and consequently enabling a perfect comparison to the original clear weather picture. 
@@ -13,7 +13,7 @@ The stimuli consist primarily of four different pairs of pictures with each pair
 ![stimuli](https://i.imgur.com/2pMtrij.png)
 </div>
 
-#### 2.1.1 Finding suitable images  
+#### 2.1.1 Search for pictures  
 In order to lay the groundwork for a sensible experiment, the stimuli had to fulfil certain criteria, that is, any pair of pictures of rainy and clear weather had to be... 
 
  1. taken at the same location (to reflect the same scenery) 
