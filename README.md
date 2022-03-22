@@ -26,7 +26,7 @@ The stimuli were therefore obtained from weather cameras ([foto-webcam.eu](https
 ![weather_fuerstenfeldbruck](https://i.imgur.com/sqdB4wb.png)
 </div>
 
-In the following, we demonstrate examples of violated criteria: 
+In the following we demonstrate examples of violated criteria: 
 
 <div align="center">
 ![violations](https://i.imgur.com/1QEHfzE.png)
@@ -76,43 +76,43 @@ for i in images:
     	elif (x == 9.5): percent = 90
     	curr.save(i + "_compressed_" + str(percent) + ".jpeg", format='JPEG', quality=round(x))
  ```
-The complete set of compressed images is shown below: 
+The complete set of compressed images is shown below.  
 
 |Compression level|Clear|Rain| Rain (artificial)|
 |:-:|:-:|:-:|:-:|
-|0.5|![enter image description here](https://i.imgur.com/QovOgxm.jpg)|![enter image description here](https://i.imgur.com/PBfJiUm.jpg)|![enter image description here](https://i.imgur.com/wIEBtga.jpg)|
-|0.58|![enter image description here](https://i.imgur.com/UwVfrIN.jpg)|![enter image description here](https://i.imgur.com/iX1Vjdm.jpg)|![enter image description here](https://i.imgur.com/tZWtYbS.jpg) |
-|0.66|![enter image description here](https://i.imgur.com/svLeNr0.jpg)|![enter image description here](https://i.imgur.com/rovsEax.jpg)| ![enter image description here](https://i.imgur.com/IvkEjKu.jpg)|
-|0.74|![enter image description here](https://i.imgur.com/ABvgvJf.jpg)|![enter image description here](https://i.imgur.com/Z3XM5Bp.jpg)| ![enter image description here](https://i.imgur.com/77qopKs.jpg)|
-|0.82|![enter image description here](https://i.imgur.com/cDiWVzq.jpg)|![enter image description here](https://i.imgur.com/P3XTE3D.jpg)| ![enter image description here](https://i.imgur.com/mXVgAeJ.jpg)|
-|0.9|![enter image description here](https://i.imgur.com/G13YGWQ.jpg)|![enter image description here](https://i.imgur.com/wr0UDDD.jpg)| ![enter image description here](https://i.imgur.com/F0KOq09.jpg)|
+|0.5|![pic](https://i.imgur.com/QovOgxm.jpg)|![pic](https://i.imgur.com/PBfJiUm.jpg)|![pic](https://i.imgur.com/wIEBtga.jpg)|
+|0.58|![pic](https://i.imgur.com/UwVfrIN.jpg)|![pic](https://i.imgur.com/iX1Vjdm.jpg)|![pic](https://i.imgur.com/tZWtYbS.jpg) |
+|0.66|![pic](https://i.imgur.com/svLeNr0.jpg)|![pic](https://i.imgur.com/rovsEax.jpg)| ![pic](https://i.imgur.com/IvkEjKu.jpg)|
+|0.74|![pic](https://i.imgur.com/ABvgvJf.jpg)|![pic](https://i.imgur.com/Z3XM5Bp.jpg)| ![pic](https://i.imgur.com/77qopKs.jpg)|
+|0.82|![pic](https://i.imgur.com/cDiWVzq.jpg)|![pic](https://i.imgur.com/P3XTE3D.jpg)| ![pic](https://i.imgur.com/mXVgAeJ.jpg)|
+|0.9|![pic](https://i.imgur.com/G13YGWQ.jpg)|![pic](https://i.imgur.com/wr0UDDD.jpg)| ![pic](https://i.imgur.com/F0KOq09.jpg)|
 
 |Compression level|Clear|Rain| Rain (artificial)|
 |:-:|:-:|:-:|:-:|
-|0.5|![enter image description here](https://i.imgur.com/S6s8r71.jpg)|![enter image description here](https://i.imgur.com/MVlldQc.jpg)|![enter image description here](https://i.imgur.com/pxsaedL.jpg)|
-|0.58|![enter image description here](https://i.imgur.com/s9LJX6B.jpg)|![enter image description here](https://i.imgur.com/YVOIMZt.jpg)|![enter image description here](https://i.imgur.com/znlpfRw.jpg) |
-|0.66|![enter image description here](https://i.imgur.com/BYYOQD7.jpg)|![enter image description here](https://i.imgur.com/5jVvwLx.jpg)| ![enter image description here](https://i.imgur.com/5VteQLu.jpg)|
-|0.74|![enter image description here](https://i.imgur.com/C1lGRqY.jpg)|![enter image description here](https://i.imgur.com/w6RFl10.jpg)| ![enter image description here](https://i.imgur.com/tWpOPaV.jpg)|
-|0.82|![enter image description here](https://i.imgur.com/UDLmONs.jpg)|![enter image description here](https://i.imgur.com/g7vMp5x.jpg)| ![enter image description here](https://i.imgur.com/U7fzXix.jpg)|
-|0.9|![enter image description here](https://i.imgur.com/SFshFM9.jpg)|![enter image description here](https://i.imgur.com/ghWRPCG.jpg)| ![enter image description here](https://i.imgur.com/oX2YCl3.jpg)|
+|0.5|![pic](https://i.imgur.com/S6s8r71.jpg)|![pic](https://i.imgur.com/MVlldQc.jpg)|![pic](https://i.imgur.com/pxsaedL.jpg)|
+|0.58|![pic](https://i.imgur.com/s9LJX6B.jpg)|![pic](https://i.imgur.com/YVOIMZt.jpg)|![pic](https://i.imgur.com/znlpfRw.jpg) |
+|0.66|![pic](https://i.imgur.com/BYYOQD7.jpg)|![pic](https://i.imgur.com/5jVvwLx.jpg)| ![pic](https://i.imgur.com/5VteQLu.jpg)|
+|0.74|![pic](https://i.imgur.com/C1lGRqY.jpg)|![pic](https://i.imgur.com/w6RFl10.jpg)| ![pic](https://i.imgur.com/tWpOPaV.jpg)|
+|0.82|![pic](https://i.imgur.com/UDLmONs.jpg)|![pic](https://i.imgur.com/g7vMp5x.jpg)| ![pic](https://i.imgur.com/U7fzXix.jpg)|
+|0.9|![pic](https://i.imgur.com/SFshFM9.jpg)|![pic](https://i.imgur.com/ghWRPCG.jpg)| ![pic](https://i.imgur.com/oX2YCl3.jpg)|
 
 |Compression level|Clear|Rain| Rain (artificial)|
 |:-:|:-:|:-:|:-:|
-|0.5|![enter image description here](https://i.imgur.com/QUcIMyk.jpg)|![enter image description here](https://i.imgur.com/78u9AG5.jpg)|![enter image description here](https://i.imgur.com/CagcHGc.jpg)|
-|0.58|![enter image description here](https://i.imgur.com/Gl6w8IV.jpg)|![enter image description here](https://i.imgur.com/4mTimSb.jpg)|![enter image description here](https://i.imgur.com/8MUIBqY.jpg) |
-|0.66|![enter image description here](https://i.imgur.com/zcykkeA.jpg)|![enter image description here](https://i.imgur.com/xG6Zs5n.jpg)| ![enter image description here](https://i.imgur.com/ofrb9ew.jpg)|
-|0.74|![enter image description here](https://i.imgur.com/e22Ae9J.jpg)|![enter image description here](https://i.imgur.com/WqE1Hjv.jpg)| ![enter image description here](https://i.imgur.com/KLONJOI.jpg)|
-|0.82|![enter image description here](https://i.imgur.com/NIgSaCW.jpg)|![enter image description here](https://i.imgur.com/0pQCL6W.jpg)| ![enter image description here](https://i.imgur.com/7pkHY4j.jpg)|
-|0.9|![enter image description here](https://i.imgur.com/Dqqa7HN.jpg)|![enter image description here](https://i.imgur.com/81prexJ.jpg)| ![enter image description here](https://i.imgur.com/HfwCra2.jpg)|
+|0.5|![pic](https://i.imgur.com/QUcIMyk.jpg)|![pic](https://i.imgur.com/78u9AG5.jpg)|![pic](https://i.imgur.com/CagcHGc.jpg)|
+|0.58|![pic](https://i.imgur.com/Gl6w8IV.jpg)|![pic](https://i.imgur.com/4mTimSb.jpg)|![pic](https://i.imgur.com/8MUIBqY.jpg) |
+|0.66|![pic](https://i.imgur.com/zcykkeA.jpg)|![pic](https://i.imgur.com/xG6Zs5n.jpg)| ![pic](https://i.imgur.com/ofrb9ew.jpg)|
+|0.74|![pic](https://i.imgur.com/e22Ae9J.jpg)|![pic](https://i.imgur.com/WqE1Hjv.jpg)| ![pic](https://i.imgur.com/KLONJOI.jpg)|
+|0.82|![pic](https://i.imgur.com/NIgSaCW.jpg)|![pic](https://i.imgur.com/0pQCL6W.jpg)| ![pic](https://i.imgur.com/7pkHY4j.jpg)|
+|0.9|![pic](https://i.imgur.com/Dqqa7HN.jpg)|![pic](https://i.imgur.com/81prexJ.jpg)| ![pic](https://i.imgur.com/HfwCra2.jpg)|
 
 |Compression level|Clear|Rain| Rain (artificial)|
 |:-:|:-:|:-:|:-:|
-|0.5|![enter image description here](https://i.imgur.com/4HwZnRn.jpg)|![enter image description here](https://i.imgur.com/edesODO.jpg)|![enter image description here](https://i.imgur.com/7h7iTiR.jpg)|
-|0.58|![enter image description here](https://i.imgur.com/u5n4eC3.jpg)|![enter image description here](https://i.imgur.com/vdqoeW7.jpg)|![enter image description here](https://i.imgur.com/MAh5E5E.jpg) |
-|0.66|![enter image description here](https://i.imgur.com/lmTf2Ti.jpg)|![enter image description here](https://i.imgur.com/Fz0Hy6G.jpg)| ![enter image description here](https://i.imgur.com/eWR0V9B.jpg)|
-|0.74|![enter image description here](https://i.imgur.com/zjZyXsM.jpg)|![enter image description here](https://i.imgur.com/hRe7tDv.jpg)| ![enter image description here](https://i.imgur.com/li3cYaq.jpg)|
-|0.82|![enter image description here](https://i.imgur.com/UAARg7r.jpg)|![enter image description here](https://i.imgur.com/q967cF8.jpg)| ![enter image description here](https://i.imgur.com/kr1WFSJ.jpg)|
-|0.9|![enter image description here](https://i.imgur.com/aMw1hOC.jpg)|![enter image description here](https://i.imgur.com/hPrsqx6.jpg)| ![enter image description here](https://i.imgur.com/STJ101i.jpg)|
+|0.5|![pic](https://i.imgur.com/4HwZnRn.jpg)|![pic](https://i.imgur.com/edesODO.jpg)|![pic](https://i.imgur.com/7h7iTiR.jpg)|
+|0.58|![pic](https://i.imgur.com/u5n4eC3.jpg)|![pic](https://i.imgur.com/vdqoeW7.jpg)|![pic](https://i.imgur.com/MAh5E5E.jpg) |
+|0.66|![pic](https://i.imgur.com/lmTf2Ti.jpg)|![pic](https://i.imgur.com/Fz0Hy6G.jpg)| ![pic](https://i.imgur.com/eWR0V9B.jpg)|
+|0.74|![pic](https://i.imgur.com/zjZyXsM.jpg)|![pic](https://i.imgur.com/hRe7tDv.jpg)| ![pic](https://i.imgur.com/li3cYaq.jpg)|
+|0.82|![pic](https://i.imgur.com/UAARg7r.jpg)|![pic](https://i.imgur.com/q967cF8.jpg)| ![pic](https://i.imgur.com/kr1WFSJ.jpg)|
+|0.9|![pic](https://i.imgur.com/aMw1hOC.jpg)|![pic](https://i.imgur.com/hPrsqx6.jpg)| ![pic](https://i.imgur.com/STJ101i.jpg)|
 
 ### 2.2 Implementation  
 
@@ -120,43 +120,43 @@ The complete set of compressed images is shown below:
 
 ## 4. Discussion
 
-## 5. Instructions to Recreate the Experiment
+## 5. Instructions to recreate the experiment
 Following this, you too can easily replicate our experiment or create your own with whatever images you want!
 
 ### Setting up
 - checking variables
-- checking refernce images
+- checking reference images
     - checking image names
 
 ### Instructions if you want to use your own images
-- Replace the Values of the Varibles in variables.py if neccessary
-- Replace the Pictures in resources/ but make sure to use the correct name
-    - The Base image names have to start at 1 and count up, don't leave one out 
-    - name sould be like this: r_<compressionNumber>_<conditionName>.jpeg . You can change the image type, but make sure to change the variable in variables.py
+- Replace the values of the variables in `variables.py` if necessary
+- Replace the pictures in `resources/` but make sure to use the correct name
+    - The base image names have to start at 1 and count up, don't leave one out
+    - name should be like this: r_<compressionNumber>_<conditionName>.jpeg . You can change the image type, but make sure to change the variable in `variables.py`
         - compressionNumber starts at 0 and counts up
-        - conditionName can be anything, but has to be added in the variable in variable.py
-        - you have to have an image for each compression for each condition you set in variables.py
+        - conditionName can be anything, but has to be added in the variable in `variable.py`
+        - you have to have an image for each compression for each condition you set in `variables.py`
 
-### Runnig Code
-1. run generate_design.py
-    - Argument
-        - Your Initials, make sure they are not alredy used. You can do this by going into output/1/ and check if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
-2. run mlds_experiment_triads.py
+### Running the code
+1. run `generate_design.py`
+    - Argument:
+        - Your initials, make sure they are not already used. You can do this by going into `output/1/` and check if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
+2. run `mlds_experiment_triads.py`
     - Arguments:
         - same initials you used in 1
         - what image you are doing the experiment in (1,2,3,4)
         - in what repetition you are (0,1,2)
-    - run this with each image and repetion combination, first iterating over all repetitions for one image and if you've done all repetitions for one image, move on to the next image.
-3. run seperate_conditions.py
+    - run this with each image and repetition combination, first iterating over all repetitions for one image and if you've done all repetitions for one image, move on to the next image.
+3. run `seperate_conditions.py`
     - Arguments:
         - same initials you used in 1
-        - what image you are seperating the conditions for (1,2,3,4)
-    - Do this for each Imae you've done all trials for with mlds_experiment_triads.py
+        - what image you are separating the conditions for (1,2,3,4)
+    - Do this for each image you've done all trials for with `mlds_experiment_triads.py`
     - You have to run this code once for each image, so that you can do the experiment on just one image and still get the results. 
-4. mlds_analysis.py
-    - no Arguments
-    - Run this once per Observer and Image
-    - Copy this file into /output/<imageName>/<observerInitials>/
-    - There replace the Path in the file to the path where the file is now
-    - Replace the Observer in the File if neccessary
+4. `mlds_analysis.py`
+    - No Arguments
+    - Run this once per observer and image
+    - Copy this file into `/output/<imageName>/<observerInitials>/`
+    - There replace the path in the file with the path where the file is now
+    - Replace the observer in the file if necessary
     - Now you can run the file
