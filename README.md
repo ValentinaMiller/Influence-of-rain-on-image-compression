@@ -132,7 +132,7 @@ Following this, you too can easily replicate our experiment or create your own w
 - Replace the values of the variables in `variables.py` if necessary
 - Replace the pictures in `resources/` but make sure to use the correct name
     - The base image names have to start at 1 and count up, don't leave one out
-    - name should be like this: r_<compressionNumber>_<conditionName>.jpeg . You can change the image type, but make sure to change the variable in `variables.py`
+    - name should be like this: r_<compressionNumber>_<conditionName>.jpeg. You can change the image type, but make sure to change the variable in `variables.py`
         - compressionNumber starts at 0 and counts up
         - conditionName can be anything, but has to be added in the variable in `variable.py`
         - you have to have an image for each compression for each condition you set in `variables.py`
@@ -140,7 +140,7 @@ Following this, you too can easily replicate our experiment or create your own w
 ### Running the code
 1. run `generate_design.py`
     - Argument:
-        - Your initials, make sure they are not already used. You can do this by going into `output/1/` and check if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
+        - Your initials, make sure they are not already used. You can do this by going into `output/1/` and checking if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
 2. run `mlds_experiment_triads.py`
     - Arguments:
         - same initials you used in 1
@@ -153,7 +153,7 @@ Following this, you too can easily replicate our experiment or create your own w
         - what image you are separating the conditions for (1,2,3,4)
     - Do this for each image you've done all trials for with `mlds_experiment_triads.py`
     - You have to run this code once for each image, so that you can do the experiment on just one image and still get the results. 
-4. `mlds_analysis.py`
+4. run `mlds_analysis.R`
     - No Arguments
     - Run this once per observer and image
     - Copy this file into `/output/<imageName>/<observerInitials>/`
