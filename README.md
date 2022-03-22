@@ -132,7 +132,7 @@ Following this, you too can easily replicate our experiment or create your own w
 - Replace the values of the variables in `variables.py` if necessary
 - Replace the pictures in `resources/` but make sure to use the correct name
     - The base image names have to start at 1 and count up, don't leave one out
-    - name should be like this: r_<compressionNumber>_<conditionName>.jpeg. You can change the image type, but make sure to change the variable in `variables.py`
+    - name should be like this: `r_<compressionNumber>_<conditionName>.jpeg`. You can change the image type, but make sure to change the variable in `variables.py`
         - compressionNumber starts at 0 and counts up
         - conditionName can be anything, but has to be added in the variable in `variable.py`
         - you have to have an image for each compression for each condition you set in `variables.py`
