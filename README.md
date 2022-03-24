@@ -118,7 +118,7 @@ The complete set of compressed images is shown below.
 Each of the following two graphs show the average of the normalized perceptual scales of all participants one of the stimuli pictures.
 The values on the x-axis "Komprimierungsgrad" state how much the pictures were compressed and the values on the y-axis "Wahrnehmungsskala" state how different the compression level was perceived in comparison to the lowest level of compression (which was 0.5 in this execution of the experiment) with 0.0 meaning no difference was perceived and 1.0 meaning the pictures were perceived as the most different. Additionally the different colors state the executions on different picture sets with dark blue being the picture set showing artificial rain, the moderate blue the picture set showing rain and the light blue the picture set showing no rain.
 
-![png](average_image1_image2.png)
+![png](average_graphs_image1_image2.png)
 
 Both scales show a tendancy towards the fact that it was harder for participants to recognize different levels of compression within the pictures which show artificial rain as the slope is the smallest for those pictures. This could also be seen in the analysis of the average graph for the other two stimuli pictures.
 
