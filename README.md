@@ -117,9 +117,15 @@ The complete set of compressed images is shown below.
 ### 2.2 Implementation  
 
 ## 3. Results
+![png](average_image1.png)
+
 Zeigen + Interpretation
+
+### 3.1 Interpretation
+
+
 ## 4. Discussion
-TODO: Erkenntnisse der Teilnehmer mit Interpretation vergleichen
+Already during the test runs the participants noticed that it was easier for them to make out differences pictures with different levels of compression if there was no rain than for pictures with rain. However, this was more of a tendency as for different pictures and participants this was slightly differently observed.
 
 ### 4.1 Kritikpunkte
 Looking at the pairs of pictures the observer notices that the pairs differ from each other in more than just the criteria whether they show rain or not. As a workaround we included a third criteria next to rain and no rain: artificial rain. This makes it possible to guarantee a better comparison.
