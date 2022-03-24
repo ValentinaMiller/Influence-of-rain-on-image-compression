@@ -114,35 +114,28 @@ The complete set of compressed images is shown below.
 |0.82|![pic](https://i.imgur.com/UAARg7r.jpg)|![pic](https://i.imgur.com/q967cF8.jpg)| ![pic](https://i.imgur.com/kr1WFSJ.jpg)|
 |0.9|![pic](https://i.imgur.com/aMw1hOC.jpg)|![pic](https://i.imgur.com/hPrsqx6.jpg)| ![pic](https://i.imgur.com/STJ101i.jpg)|
 
-### 2.2 Implementation  
-
 ## 3. Results
-
-The following two graphs show the average of the perceptunal graph of the participants all first scaled to 1.
-The scales both show a tendancy 
-This could also be seen in the analysis of the other two stimuli pictures.
-on the x Axis "" means as much as 
-
-Die folgende Abbildung zeigt die Wahrnehmungsskalen für unsere Stimuli und zwei Beobachter (der Autor und ein naiver Teilnehmer). Wir haben das Maximum der Skala in Anlehnung an Charrier et al. (2007) auf eins normiert. Die Skalen der beiden Beobachter weisen geringfügige Unterschiede auf. Für beide Beobachter ist aber festzustellen, dass der Effekt der Komprimierung in dem natürlichen (Einstein) Gesicht eher bemerkt wird als in dem abstrakten Gesicht (Picasso). Der Wendepunkt der Skala für Einstein ist bei einem niedrigeren Komprimierungswert als der der Skala bei Picassos Bild
+Each of the following two graphs show the average of the normalized perceptual scales of all participants one of the stimuli pictures.
+The values on the x-axis "Komprimierungsgrad" state how much the pictures were compressed and the values on the y-axis "Wahrnehmungsskala" state how different the compression level was perceived in comparison to the lowest level of compression (which was 0.5 in this execution of the experiment) with 0.0 meaning no difference was perceived and 1.0 meaning the pictures were perceived as the most different. Additionally the different colors state the executions on different picture sets with dark blue being the picture set showing artificial rain, the moderate blue the picture set showing rain and the light blue the picture set showing no rain.
 
 ![png](average_image1_image2.png)
 
-Zeigen + Interpretation
+Both scales show a tendancy towards the fact that it was harder for participants to recognize different levels of compression within the pictures which show artificial rain as the slope is the smallest for those pictures. This could also be seen in the analysis of the average graph for the other two stimuli pictures.
 
-### 3.1 Interpretation
-
+All together this indicates that our hypothesis that rain causes a difference in the perceived quality of a compressed image is true.
 
 ## 4. Discussion
-Already during the test runs the participants noticed that it was easier for them to make out differences pictures with different levels of compression if there was no rain than for pictures with rain. However, this was more of a tendency as for different pictures and participants this was slightly differently observed.
+Already during the test runs the participants noticed that it was easier for them to make out differences pictures with different levels of compression if there was no rain than for pictures with rain. However, this was more of a tendency as for different pictures and participants this was slightly differently observed. The realization that compression is not very noticable for pictures with artficial rain this could be used as an advantage.
+One application would be to make streaming less data consuming without losing observable quality by replacing scenes. Scenes when it is raining could be replaced by scenes with artificial rain and then compressed by a higher factor.
 
-### 4.1 Kritikpunkte
+### 4.1 Workarounds
 Looking at the pairs of pictures the observer notices that the pairs differ from each other in more than just the criteria whether they show rain or not. As a workaround we included a third criteria next to rain and no rain: artificial rain. This makes it possible to guarantee a better comparison.
 
 ### 4.2 Debriefing
 Finally it is important to mention that the experiments have to be extended by more participants, more test runs as well as more stimuli pictures with different motives in order to proove or disproove our hypothesis.
 
 ### 4.3 Remaining Questions
-It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question further calculations have to be done which only make sense if they're based on more differing Stimuli as well as more test runs and participants. 
+It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question further calculations have to be done which only make sense if they're based on more differing Stimuli as well as more test runs and participants. Another question that would be very interesting to examine is how other weather conditions influence the perceived quality of compressed pictures as for example fog.
 
 ## 5. Instructions to recreate the experiment
 Following this, you too can easily replicate our experiment or create your own with whatever images you want!
