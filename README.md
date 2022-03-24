@@ -120,22 +120,22 @@ The values on the x-axis "Komprimierungsgrad" state how much the pictures were c
 
 ![png](average_graphs_image1_image2.png)
 
-Both scales show a tendancy towards the fact that it was harder for participants to recognize different levels of compression within the pictures which show artificial rain as the slope is the smallest for those pictures. This could also be seen in the analysis of the average graph for the other two stimuli pictures.
+Both scales show a tendency towards the fact that it was harder for participants to recognize different levels of compression within the pictures which show artificial rain as the slope is the smallest for those pictures. This could also be seen in the analysis of the average graph for the other two stimuli pictures.
 
 All together this indicates that our hypothesis that rain causes a difference in the perceived quality of a compressed image is true.
 
 ## 4. Discussion
-Already during the test runs the participants noticed that it was easier for them to make out differences pictures with different levels of compression if there was no rain than for pictures with rain. However, this was more of a tendency as for different pictures and participants this was slightly differently observed. The realization that compression is not very noticable for pictures with artficial rain this could be used as an advantage.
+Already during the test runs the participants noticed that it was easier for them to make out differences pictures with different levels of compression if there was no rain than for pictures with rain. However, this was more of a tendency as for different pictures and participants this was slightly differently observed. The realization that compression is not very noticeable for pictures with artificial rain this could be used as an advantage.
 One application would be to make streaming less data consuming without losing observable quality by replacing scenes. Scenes when it is raining could be replaced by scenes with artificial rain and then compressed by a higher factor.
 
 ### 4.1 Workarounds
 Looking at the pairs of pictures the observer notices that the pairs differ from each other in more than just the criteria whether they show rain or not. As a workaround we included a third criteria next to rain and no rain: artificial rain. This makes it possible to guarantee a better comparison.
 
 ### 4.2 Debriefing
-Finally it is important to mention that the experiments have to be extended by more participants, more test runs as well as more stimuli pictures with different motives in order to proove or disproove our hypothesis.
+Finally it is important to mention that the experiments have to be extended by more participants, more test runs as well as more stimuli pictures with different motives in order to prove or disprove our hypothesis.
 
 ### 4.3 Remaining Questions
-It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question further calculations have to be done which only make sense if they're based on more differing Stimuli as well as more test runs and participants. Another question that would be very interesting to examine is how other weather conditions influence the perceived quality of compressed pictures as for example fog.
+It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question further calculations have to be done which only make sense if they're based on more differing stimuli as well as more test runs and participants. Another question that would be very interesting to examine is how other weather conditions influence the perceived quality of compressed pictures as for example fog.
 
 ## 5. Instructions to recreate the experiment
 Following this, you too can easily replicate our experiment or create your own with whatever images you want!
