@@ -117,7 +117,15 @@ The complete set of compressed images is shown below.
 ### 2.2 Implementation  
 
 ## 3. Results
-![png](average_image1.png)
+
+The following two graphs show the average of the perceptunal graph of the participants all first scaled to 1.
+The scales both show a tendancy 
+This could also be seen in the analysis of the other two stimuli pictures.
+on the x Axis "" means as much as 
+
+Die folgende Abbildung zeigt die Wahrnehmungsskalen für unsere Stimuli und zwei Beobachter (der Autor und ein naiver Teilnehmer). Wir haben das Maximum der Skala in Anlehnung an Charrier et al. (2007) auf eins normiert. Die Skalen der beiden Beobachter weisen geringfügige Unterschiede auf. Für beide Beobachter ist aber festzustellen, dass der Effekt der Komprimierung in dem natürlichen (Einstein) Gesicht eher bemerkt wird als in dem abstrakten Gesicht (Picasso). Der Wendepunkt der Skala für Einstein ist bei einem niedrigeren Komprimierungswert als der der Skala bei Picassos Bild
+
+![png](average_image1_image2.png)
 
 Zeigen + Interpretation
 
