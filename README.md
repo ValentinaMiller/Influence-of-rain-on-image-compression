@@ -51,7 +51,7 @@ The stimuli images were compressed into JPEG format using Python's PIL (Python I
 ```math 
 f: \mathbb{N} \to \mathbb{N}, f(x) = \lceil\mid95 -(\frac{x}{100} \cdot 95)\mid\rceil
 ```
-where $`x`$ is the desired compression percentage. The compression was then implemented using the script `compressor.py`: 
+where $`x`$ is the desired compression percentage. The compression was then implemented using the script `/code_commented/compressor.py`: 
 
 ```python # Usage: Run the script from a directory that includes .bmp, .jpg or .jpeg images.
  # Usage: Run the script from a directory that includes .bmp, .jpg or .jpeg images.
@@ -141,37 +141,37 @@ It's questionable whether the measured deviation of pictures with artificial rai
 Following this, you too can easily replicate our experiment or create your own with whatever images you want!
 
 ### Setting up
-- checking variables
-- checking reference images
-    - checking image names
+- Checking variables
+- Checking reference images
+    - Checking image names
 
 ### Instructions if you want to use your own images
-- Replace the values of the variables in `variables.py` if necessary
+- Replace the values of the variables in `/code_commented/variables.py` if necessary
 - Replace the pictures in `resources/` but make sure to use the correct name
     - The base image names have to start at 1 and count up, don't leave one out
-    - name should be like this: `r_<compressionNumber>_<conditionName>.jpeg`. You can change the image type, but make sure to change the variable in `variables.py`
+    - Name should be like this: `r_<compressionNumber>_<conditionName>.jpeg`. You can change the image type, but make sure to change the variable in `variables.py`
         - compressionNumber starts at 0 and counts up
         - conditionName can be anything, but has to be added in the variable in `variable.py`
-        - you have to have an image for each compression for each condition you set in `variables.py`
+        - You have to have an image for each compression for each condition you set in `variables.py`
 
 ### Running the code
-1. run `generate_design.py`
+1. Run `/code_commented/generate_design.py`
     - Argument:
-        - Your initials, make sure they are not already used. You can do this by going into `output/1/` and checking if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
-2. run `mlds_experiment_triads.py`
+        - Your initials, make sure they are not already used. You can do this by going into `/code_commented/output/1/` and checking if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
+2. Eun `/code_commented/mlds_experiment_triads.py`
     - Arguments:
-        - same initials you used in 1
-        - what image you are doing the experiment in (1,2,3,4)
-        - in what repetition you are (0,1,2)
-    - run this with each image and repetition combination, first iterating over all repetitions for one image and if you've done all repetitions for one image, move on to the next image.
-3. run `seperate_conditions.py`
+        - Same initials you used in 1
+        - What image you are doing the experiment in (1,2,3,4)
+        - In what repetition you are (0,1,2)
+    - Run this with each image and repetition combination, first iterating over all repetitions for one image and if you've done all repetitions for one image, move on to the next image.
+3. Run `/code_commented/seperate_conditions.py`
     - Arguments:
-        - same initials you used in 1
-        - what image you are separating the conditions for (1,2,3,4)
+        - Same initials you used in 1
+        - What image you are separating the conditions for (1,2,3,4)
     - Do this for each image you've done all trials for with `mlds_experiment_triads.py`
     - You have to run this code once for each image, so that you can do the experiment on just one image and still get the results. 
-4. run `mlds_analysis.R`
-    - No Arguments
+4. Run `/code_commented/mlds_analysis.R`
+    - No arguments
     - Run this once per observer and image
     - Copy this file into `/output/<imageName>/<observerInitials>/`
     - There replace the path in the file with the path where the file is now
