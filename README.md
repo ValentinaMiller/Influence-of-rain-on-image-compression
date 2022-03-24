@@ -117,7 +117,6 @@ The complete set of compressed images is shown below.
 ### 2.2 Implementation  
 
 ## 3. Results
-[embed]average_image1.pdf[/embed]
 ![png](average_image1.png)
 
 Zeigen + Interpretation
