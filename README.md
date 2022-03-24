@@ -117,8 +117,18 @@ The complete set of compressed images is shown below.
 ### 2.2 Implementation  
 
 ## 3. Results
-
+Zeigen + Interpretation
 ## 4. Discussion
+TODO: Erkenntnisse der Teilnehmer mit Interpretation vergleichen
+
+### 4.1 Kritikpunkte
+Looking at the pairs of pictures the observer notices that the pairs differ from each other in more than just the criteria whether they show rain or not. As a workaround we included a third criteria next to rain and no rain: artificial rain. This makes it possible to guarantee a better comparison.
+
+### 4.2 Debriefing
+Finally it is important to mention that the experiments have to be extended by more participants, more test runs as well as more stimuli pictures with different motives in order to proove or disproove our hypothesis.
+
+### 4.3 Remaining Questions
+It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question further calculations have to be done which only make sense if they're based on more differing Stimuli as well as more test runs and participants. 
 
 ## 5. Instructions to recreate the experiment
 Following this, you too can easily replicate our experiment or create your own with whatever images you want!
