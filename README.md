@@ -116,7 +116,7 @@ The complete set of compressed images is shown below.
 
 ## 3. Results
 Each of the following two graphs show the average of the normalized perceptual scales of all participants one of the stimuli pictures.
-The values on the x-axis "Komprimierungsgrad" state how much the pictures were compressed and the values on the y-axis "Wahrnehmungsskala" state how different the compression level was perceived in comparison to the lowest level of compression (which was 0.5 in this execution of the experiment) with 0.0 meaning no difference was perceived and 1.0 meaning the pictures were perceived as the most different. Additionally the different colors state the executions on different picture sets with dark blue being the picture set showing artificial rain, the moderate blue the picture set showing rain and the light blue the picture set showing no rain.
+The values on the x-axis "Komprimierungsgrad" state how much the pictures were compressed and the values on the y-axis "Wahrnehmungsskala" state how different the compression level was perceived in comparison to the lowest level of compression (which was $`0.5`$ in this execution of the experiment) with $`0.0`$ meaning no difference was perceived and $`1.0`$ meaning the pictures were perceived as the most different. Additionally the different colors state the executions on different picture sets with dark blue being the picture set showing artificial rain, the moderate blue the picture set showing rain and the light blue the picture set showing no rain.
 
 ![png](average_graphs_image1_image2.png)
 
@@ -129,13 +129,13 @@ Already during the test runs the participants noticed that it was easier for the
 One application would be to make streaming less data consuming without losing observable quality by replacing scenes. Scenes when it is raining could be replaced by scenes with artificial rain and then compressed by a higher factor.
 
 ### 4.1 Workarounds
-Looking at the pairs of pictures the observer notices that the pairs differ from each other in more than just the criteria whether they show rain or not. As a workaround we included a third criteria next to rain and no rain: artificial rain. This makes it possible to guarantee a better comparison.
+Looking at the pairs of pictures the observer notices that the pairs differ from each other in more than just the criterion whether they show rain or not. As a workaround we included a third criterion next to rain and no rain: artificial rain. This makes it possible to guarantee a better comparison.
 
 ### 4.2 Debriefing
 Finally it is important to mention that the experiments have to be extended through more participants, more test runs as well as more stimuli pictures with different motives in order to prove or disprove our hypothesis.
 
 ### 4.3 Remaining Questions
-It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question further calculations have to be done which only make sense if they're based on more differing stimuli as well as more test runs and participants. Another question that would be very interesting to examine, is how other weather conditions influence the perceived quality of compressed pictures, for example fog.
+It's questionable whether the measured deviation of pictures with artificial rain is actually bigger than the standard deviation and therefore a relevant result of the experiment. However, in order to answer this question, further calculations have to be done which only make sense if they're based on more differing stimuli as well as more test runs and participants. Another question that would be very interesting to examine is how other weather conditions influence the perceived quality of compressed pictures, for example fog.
 
 ## 5. Instructions to recreate the experiment
 Following this, you too can easily replicate our experiment or create your own with whatever images you want!
@@ -147,7 +147,7 @@ Following this, you too can easily replicate our experiment or create your own w
 
 ### Instructions if you want to use your own images
 - Replace the values of the variables in `/code_commented/variables.py` if necessary
-- Replace the pictures in `resources/` but make sure to use the correct name
+- Replace the pictures in `/code_commented/resources` but make sure to use the correct name
     - The base image names have to start at 1 and count up, don't leave one out
     - Name should be like this: `r_<compressionNumber>_<conditionName>.jpeg`. You can change the image type, but make sure to change the variable in `variables.py`
         - compressionNumber starts at 0 and counts up
@@ -157,8 +157,8 @@ Following this, you too can easily replicate our experiment or create your own w
 ### Running the code
 1. Run `/code_commented/generate_design.py`
     - Argument:
-        - Your initials, make sure they are not already used. You can do this by going into `/code_commented/output/1/` and checking if there already is a folder with your initials. If there is one, just change it until there is no folder with this name.
-2. Eun `/code_commented/mlds_experiment_triads.py`
+        - Your initials, make sure they are not already used. You can do this by going into `/code_commented/output/1/` and checking if there already is a folder with your initials. If there is one, rename it to something else so that your initials can be used for the new folder.
+2. Run `/code_commented/mlds_experiment_triads.py`
     - Arguments:
         - Same initials you used in 1
         - What image you are doing the experiment in (1,2,3,4)
