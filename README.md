@@ -1,4 +1,4 @@
-# Rain and Image Compression 
+# university project: The influence of rain on image compression 
 
 ## 1. Introduction
 Our project aims to examine the effect induced by rain on the perceived quality of images when compressed. In order to study such an effect, we make use of comparable images that illustrate sceneries reflecting *clear* and *rainy* states. We hypothesize that rain causes a difference in the perceived quality of a compressed image and conduct an MLDS experiment with the method of triads to test our hypothesis. 
@@ -52,7 +52,7 @@ Rain effects were simulated by adding gaussian monochromatic noise to clear weat
 #### 2.1.4 Compression
 The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from 95 (best possible quality) to 1 (worst possible quality), the following function was used to translate compression percentages into their corresponding quality values: 
 
-´f: \mathbb{N} \to \mathbb{N}, f(x) = \lceil\mid95 -(\frac{x}{100} \cdot 95)\mid\rceil´
+```f(x) = ⌈| 95 - (x/100 x 95) |⌉```
 
 where x is the desired compression percentage. The compression was then implemented using the script `/code_commented/compressor.py`: 
 
