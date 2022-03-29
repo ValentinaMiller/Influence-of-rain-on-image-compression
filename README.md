@@ -4,13 +4,13 @@
 Our project aims to examine the effect induced by rain on the perceived quality of images when compressed. In order to study such an effect, we make use of comparable images that illustrate sceneries reflecting *clear* and *rainy* states. We hypothesize that rain causes a difference in the perceived quality of a compressed image and conduct an MLDS experiment with the method of triads to test our hypothesis. 
 
 ## 2. Experimental design
-In each trial of the MLDS experiment, the observer is presented with three compressed versions of a picture depicting a single state (rainy or clear weather). Six compression levels are used: $`50\%, 58\%, 66\%, 74\%, 82\%`$ and $`90\%`$. For each of our $`4`$ pictures, an observer has to complete $`3`$ runs, in each of which they are presented with $`60`$ comparisons, totalling $`720`$ trials per observer. Overall, $`9`$ observers have taken the experiment. 
+In each trial of the MLDS experiment, the observer is presented with three compressed versions of a picture depicting a single state (rainy or clear weather). Six compression levels are used: 50%, 58%, 66%, 74%, 82% and 90%. For each of our 4 pictures, an observer has to complete 3 runs, in each of which they are presented with 60 comparisons, totalling 720 trials per observer. Overall, 9 observers have taken the experiment. 
 
 ### 2.1 Stimuli 
 The stimuli consist primarily of four different pairs of pictures with each pair comprising a clear and a rainy weather photograph. We also added an extra layer to our experiment by artificially simulating raindrops and consequently enabling a perfect comparison to the original clear weather picture. 
 
 <div align="center">
-![stimuli](https://i.imgur.com/2pMtrij.png)
+![stimuli](first.png)
 </div>
 
 #### 2.1.1 Search for pictures  
@@ -23,35 +23,35 @@ In order to lay the groundwork for a sensible experiment, the stimuli had to ful
 
 The stimuli were therefore obtained from weather cameras ([foto-webcam.eu](https://www.foto-webcam.eu/webcam)) as they presented the most viable choice. However, the decision to use such cameras also posed its own challenges. The pictures of rainy weather had to captured at the perfect moment in time such that  raindrops are visible but not falling on the camera lens and obscuring the scenery or causing an out-of-focus image. Naturally, finding such pictures has proven to be difficult and time consuming. To ease this task and narrow our scope of search, we collected weather data of different regions to determine the points in time in which rainfall was especially high and used them as reference points while searching for pictures. For example, "Image 1" was taken on 16.08.2021 in Fürstenfeldbruck where the region's weather data showed a peak in precipitation: 
 <div align="center">
-![weather_fuerstenfeldbruck](https://i.imgur.com/sqdB4wb.png)
+![weather_fuerstenfeldbruck](second.png)
 </div>
 
 In the following we demonstrate examples of violated criteria: 
 
 <div align="center">
-![violations](https://i.imgur.com/1QEHfzE.png)
+![violations](third.png)
 </div>
 
 #### 2.1.2 Cropping  
 Each pair of stimuli pictures (rain/no rain) had to be manually cropped for two main reasons: 
  1. Reducing differences: Raindrops should ideally be the only factor differentiating the pair. Any other visible dissimilarities or moving objects had to be cut out.
- 2. Setting a practical uniform size of $`350`$x$`350`$ pixels which allows the MLDS experiment to be executed on smaller monitors. 
+ 2. Setting a practical uniform size of 350x350 pixels which allows the MLDS experiment to be executed on smaller monitors. 
 
 The cropping process had to be pixel-perfect to guarantee that the resulting pictures in each pair reflected the same scenery. To achieve this, every two pictures comprising a pair were layered on top of one another and cropped together simultaneously. 
 
 <div align="center">
-![image 1 cropping](https://i.imgur.com/ZpN7cND.png)![image 2 cropping](https://i.imgur.com/IJWOmfK.png)![image 3 cropping](https://i.imgur.com/aOOq57j.png)![image 4 cropping](https://i.imgur.com/BeozHT1.png)
+![image 1 cropping](fourth.png)![image 2 cropping](fifth.png)![image 3 cropping](sixth.png)![image 4 cropping](seventh.png)
 </div>
 
 #### 2.1.3 Artificial rain
 Rain effects were simulated by adding gaussian monochromatic noise to clear weather pictures and applying blending techniques. For the purposes of our experiment, we use a consistent amount of noise at $`35\%`$ and do not consider other variables like the fall angle or the size of raindrops. 
 
 #### 2.1.4 Compression
-The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from $`95`$ (best possible quality) to $`1`$ (worst possible quality), the following function was used to translate compression percentages into their corresponding quality values: 
-```math 
-f: \mathbb{N} \to \mathbb{N}, f(x) = \lceil\mid95 -(\frac{x}{100} \cdot 95)\mid\rceil
-```
-where $`x`$ is the desired compression percentage. The compression was then implemented using the script `/code_commented/compressor.py`: 
+The stimuli images were compressed into JPEG format using Python's PIL (Python Imaging Library). Since PIL's quality parameter runs from 95 (best possible quality) to 1 (worst possible quality), the following function was used to translate compression percentages into their corresponding quality values: 
+
+´f: \mathbb{N} \to \mathbb{N}, f(x) = \lceil\mid95 -(\frac{x}{100} \cdot 95)\mid\rceil´
+
+where x is the desired compression percentage. The compression was then implemented using the script `/code_commented/compressor.py`: 
 
 ```python # Usage: Run the script from a directory that includes .bmp, .jpg or .jpeg images.
  # Usage: Run the script from a directory that includes .bmp, .jpg or .jpeg images.
