@@ -9,9 +9,7 @@ In each trial of the MLDS experiment, the observer is presented with three compr
 ### 2.1 Stimuli 
 The stimuli consist primarily of four different pairs of pictures with each pair comprising a clear and a rainy weather photograph. We also added an extra layer to our experiment by artificially simulating raindrops and consequently enabling a perfect comparison to the original clear weather picture. 
 
-<div align="center">
 ![stimuli](first.png)
-</div>
 
 #### 2.1.1 Search for pictures  
 In order to lay the groundwork for a sensible experiment, the stimuli had to fulfil certain criteria, that is, any pair of pictures of rainy and clear weather had to be... 
@@ -22,15 +20,14 @@ In order to lay the groundwork for a sensible experiment, the stimuli had to ful
  4. ideally of the same brightness level (to minimize the effects of perceived brightness)
 
 The stimuli were therefore obtained from weather cameras ([foto-webcam.eu](https://www.foto-webcam.eu/webcam)) as they presented the most viable choice. However, the decision to use such cameras also posed its own challenges. The pictures of rainy weather had to captured at the perfect moment in time such that  raindrops are visible but not falling on the camera lens and obscuring the scenery or causing an out-of-focus image. Naturally, finding such pictures has proven to be difficult and time consuming. To ease this task and narrow our scope of search, we collected weather data of different regions to determine the points in time in which rainfall was especially high and used them as reference points while searching for pictures. For example, "Image 1" was taken on 16.08.2021 in Fürstenfeldbruck where the region's weather data showed a peak in precipitation: 
-<div align="center">
+
 ![weather_fuerstenfeldbruck](second.png)
-</div>
 
 In the following we demonstrate examples of violated criteria: 
 
-<div align="center">
+
 ![violations](third.png)
-</div>
+
 
 #### 2.1.2 Cropping  
 Each pair of stimuli pictures (rain/no rain) had to be manually cropped for two main reasons: 
@@ -39,9 +36,15 @@ Each pair of stimuli pictures (rain/no rain) had to be manually cropped for two 
 
 The cropping process had to be pixel-perfect to guarantee that the resulting pictures in each pair reflected the same scenery. To achieve this, every two pictures comprising a pair were layered on top of one another and cropped together simultaneously. 
 
-<div align="center">
-![image 1 cropping](fourth.png)![image 2 cropping](fifth.png)![image 3 cropping](sixth.png)![image 4 cropping](seventh.png)
-</div>
+
+![image 1 cropping](fourth.png)
+
+![image 2 cropping](fifth.png)
+
+![image 3 cropping](sixth.png)
+
+![image 4 cropping](seventh.png)
+
 
 #### 2.1.3 Artificial rain
 Rain effects were simulated by adding gaussian monochromatic noise to clear weather pictures and applying blending techniques. For the purposes of our experiment, we use a consistent amount of noise at $`35\%`$ and do not consider other variables like the fall angle or the size of raindrops. 
@@ -116,7 +119,7 @@ The complete set of compressed images is shown below.
 
 ## 3. Results
 Each of the following two graphs show the average of the normalized perceptual scales of all participants one of the stimuli pictures.
-The values on the x-axis "Komprimierungsgrad" state how much the pictures were compressed and the values on the y-axis "Wahrnehmungsskala" state how different the compression level was perceived in comparison to the lowest level of compression (which was $`0.5`$ in this execution of the experiment) with $`0.0`$ meaning no difference was perceived and $`1.0`$ meaning the pictures were perceived as the most different. Additionally the different colors state the executions on different picture sets with dark blue being the picture set showing artificial rain, the moderate blue the picture set showing rain and the light blue the picture set showing no rain.
+The values on the x-axis "Komprimierungsgrad" state how much the pictures were compressed and the values on the y-axis "Wahrnehmungsskala" state how different the compression level was perceived in comparison to the lowest level of compression (which was 0.5 in this execution of the experiment) with 0.0 meaning no difference was perceived and 1.0 meaning the pictures were perceived as the most different. Additionally the different colors state the executions on different picture sets with dark blue being the picture set showing artificial rain, the moderate blue the picture set showing rain and the light blue the picture set showing no rain.
 
 ![png](average_graphs_image1_image2.png)
 
